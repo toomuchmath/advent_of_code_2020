@@ -82,7 +82,7 @@ def requirements(passport_dict):
 
 
 def main():
-    passport_list = get_input('day4.txt')
+    passport_list = get_input('day04.txt')
     passport_dict = valid_passports(passport_list)
     all_checked = requirements(passport_dict)
     print(all_checked)

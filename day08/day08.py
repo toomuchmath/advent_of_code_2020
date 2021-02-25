@@ -67,7 +67,7 @@ def repair(split_instructions):
 
 
 def main():
-    instructions = get_input('day8.txt')
+    instructions = get_input('day08.txt')
     split_instructions = list(map(split_instruction, instructions))
 
     # part 1

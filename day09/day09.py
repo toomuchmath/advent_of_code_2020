@@ -44,7 +44,7 @@ def encryption_weakness(numbers, not_sum_number):
 
 
 def main():
-    input_list = get_input('day9.txt')
+    input_list = get_input('day09.txt')
     numbers = list(map(int, input_list))
 
     # part 1

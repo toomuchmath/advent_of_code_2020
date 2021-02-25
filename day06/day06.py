@@ -35,7 +35,7 @@ def common_questions(questions):
 
 
 def main():
-    input_list = get_input('day6.txt')
+    input_list = get_input('day06.txt')
     # questions_list = list(map(distinct_questions, input_list))
     # print(questions_list)
     # questions_count = list(map(count_questions, questions_list))

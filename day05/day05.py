@@ -29,7 +29,7 @@ def find_seat(seat_ids):
 
 
 def main():
-    boarding_passes = get_input('day5.txt')
+    boarding_passes = get_input('day05.txt')
     print(boarding_passes)
     boarding_pass_binary = list(map(to_binary, boarding_passes))
     print(boarding_pass_binary)

@@ -28,5 +28,5 @@ def three_numbers(input_list):
 
 
 if __name__ == '__main__':
-    print(three_numbers(into_list('day1.txt')))
+    print(three_numbers(into_list('day01.txt')))
 

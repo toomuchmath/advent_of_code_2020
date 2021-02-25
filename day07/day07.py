@@ -86,7 +86,7 @@ def dfs_sum(bag_count_dict, bag_colour):
 
 
 def main():
-    rules = get_input('day7.txt')
+    rules = get_input('day07.txt')
 
     # part 1
     rule_nested_dict = into_dict(rules)

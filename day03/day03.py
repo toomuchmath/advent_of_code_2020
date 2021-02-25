@@ -28,7 +28,7 @@ def count_trees(split_lines, x_increment, y_increment):
 
 
 def main():
-    split_lines = get_input('day3.txt')
+    split_lines = get_input('day03.txt')
     number_of_trees11 = count_trees(split_lines, 1, 1)
     number_of_trees31 = count_trees(split_lines, 3, 1)
     number_of_trees51 = count_trees(split_lines, 5, 1)

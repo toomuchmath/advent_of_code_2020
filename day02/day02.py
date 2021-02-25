@@ -32,6 +32,6 @@ def part_two(line_list):
 
 
 if __name__ == '__main__':
-    split_lines = into_list('day2.txt')
+    split_lines = into_list('day02.txt')
     valid_passwords = part_one(split_lines)
     print(part_two(split_lines))
